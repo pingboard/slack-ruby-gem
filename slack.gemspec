@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
 
   spec.add_runtime_dependency "faraday", [">= 0.7", "<= 1.3.1"]
-  spec.add_runtime_dependency "faraday_middleware", "~> 0.8"
+  spec.add_runtime_dependency "faraday_middleware"
   spec.add_runtime_dependency "multi_json", ">= 1.0.3", "~> 1.0"
   spec.add_runtime_dependency "faye-websocket", "~> 0.11.0"
 end
